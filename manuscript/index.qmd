@@ -1,0 +1,33 @@
+---
+title: "Cross-Atlas Single-Cell Integration"
+author: "Colin Johnson"
+format:
+  html:
+    toc: true
+  pdf: default
+---
+
+## Introduction
+
+This is a test manuscript rendering pipeline.
+
+## Results
+
+We integrated synthetic single-cell datasets. The harmonized UMAP display is shown in @fig-umap, and cell counts per dataset are summarized in @tbl-counts.
+
+```{r}
+#| label: fig-umap
+#| fig-cap: "Harmonized UMAP layout showing mock integrated cell types."
+#| echo: false
+
+knitr::include_graphics("../output/figures/umap_integrated.png")
+```
+
+```{r}
+#| label: tbl-counts
+#| tbl-cap: "Cell counts per dataset and cell type."
+#| echo: false
+
+counts <- read.csv("../output/tables/atlas_summary.csv")
+knitr::kable(counts)
+```
