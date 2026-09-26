@@ -47,3 +47,16 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Quarto build directories and temporary files
+.quarto/
+_manuscript/
+_freeze/
+*_files/
+*_cache/
+
+/.quarto/
+**/*.quarto_ipynb
+
+# Project folders
+data/

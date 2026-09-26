@@ -1,0 +1,10 @@
+"dataset","cell_type","cell_count"
+"Dataset_A","B-cell",67
+"Dataset_B","B-cell",69
+"Dataset_C","B-cell",64
+"Dataset_A","Monocyte",72
+"Dataset_B","Monocyte",66
+"Dataset_C","Monocyte",62
+"Dataset_A","T-cell",64
+"Dataset_B","T-cell",58
+"Dataset_C","T-cell",78
