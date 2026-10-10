@@ -1,0 +1,23 @@
+
+> cat("## 105-Export-Pseudobulk.R\n")
+## 105-Export-Pseudobulk.R
+
+> cat("Run at:", format(Sys.time()), "|", R.version.string, "\n")
+Run at: 2026-10-07 11:58:32 | R version 4.6.1 (2026-06-24 ucrt) 
+
+> cat("Seurat:", as.character(packageVersion("Seurat")), "\n\n")
+Seurat: 5.5.1 
+
+
+> atlas <- readRDS("data/HAECA_filtered.RDS")
+
+> # ---- DIAGNOSTIC 1: how many genes does the RNA assay actually carry? --------
+> # This is the single most important number. dim(atlas) reports the .... [TRUNCATED] 
+=== DIAGNOSTIC 1: assay dimensions ===
+
+> cat("DefaultAssay          :", DefaultAssay(atlas), "\n")
+DefaultAssay          : integrated 
+
+> for (a in Assays(atlas)) {
++   cat(sprintf("assay %-11s: %d features x %d cells | layers: %s\n",
++               a, nrow(atlas[[a]]), ncol(atlas[[a] .... [TRUNCATED] 

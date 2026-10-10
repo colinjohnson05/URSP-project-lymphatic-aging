@@ -1,0 +1,246 @@
+## 100-Inspect-Metadata.R
+R version: R version 4.6.1 (2026-06-24 ucrt) 
+Seurat    : 5.5.1 
+Run at    : 2026-10-05 23:51:16 
+
+Object dimensions (genes x cells): 2000 x 204091 
+Assays present                  : RNA, integrated 
+Default assay                   : integrated 
+Layers in assay 'RNA': scale.data.1, scale.data.2, data.1, counts.1, data.2, counts.2
+Layers in assay 'integrated': data, scale.data
+
+---- metadata schema ----
+            column     class n_unique n_missing
+        orig.ident character      148      2677
+        nCount_RNA   numeric    15581         0
+      nFeature_RNA   integer     4685         0
+          HAECA_ID character       22         0
+            Sample character      352         0
+             Donor character      132         0
+            Tissue character       11         0
+               Age character       68         0
+            Gender character        3         0
+            Method character        4         0
+      Genome_build character        1         0
+          Sampling character        2         0
+        percent.mt   numeric   134467         0
+   seurat_clusters    factor       42         0
+   clustering_fine character       63         0
+ clustering_global character        7         0
+      Age_brackets character        2         0
+            Decade character        8         0
+           cell_id character   204091         0
+
+---- clustering_global ----
+    clustering_global n_cells
+            capillary  109971
+                 vein   36343
+               artery   18404
+   capillary_arterial   17615
+            lymphatic   12424
+     capillary_venous    6931
+ capillary_angiogenic    2403
+
+---- Age_brackets ----
+ Age_brackets n_cells
+         aged  143677
+        young   60414
+
+---- candidate annotation / covariate columns ----
+[1] "Tissue"            "Age"               "Gender"            "seurat_clusters"  
+[5] "clustering_fine"   "clustering_global" "Age_brackets"     
+
+Tissue: Adipose | Breast | Heart | Intestine | Kidney | Liver | Lung | Muscle | Ovarium | Skin | Uterus
+Age: character, 68 unique
+Gender: Female | Male | Unknown
+seurat_clusters: factor, 42 unique
+clustering_fine: character, 63 unique
+
+---- Donor x clustering_global (cells) ----
+        Donor Age_brackets     Age    Tissue artery capillary capillary_angiogenic
+         098C        young    41_y      Lung     35       139                    0
+        1035N         aged    52_y    Breast    124       209                   28
+           13         aged    49_y   Ovarium     42         0                   10
+        1372C        young    21_y      Lung     31        75                    5
+       158108         aged 50-54_y Intestine     59       229                    0
+       18-162         aged 70-79_y    Kidney     14       160                   61
+         192C         aged    62_y      Lung     10        45                    0
+       197396         aged 70-74_y Intestine    157       110                    0
+        1989N        young    33_y    Breast    161       655                  229
+        2024N        young    21_y    Breast    263       557                   88
+        2182N        young    25_y    Breast    533       378                   23
+         222C         aged    65_y      Lung     23       122                    0
+        2252N        young    19_y    Breast    317       988                   37
+         296C         aged    80_y      Lung      9       182                    0
+            3        young    22_y   Ovarium    150        24                  126
+        3002N        young    31_y    Breast    975       721                  286
+        3046N         aged    55_y    Breast    546       639                   40
+        3150N         aged    65_y    Breast   1621      1125                  150
+        3234N         aged    57_y    Breast    144       554                  192
+     33287869        young    31_y     Liver    156       986                  195
+         339C         aged 70-75_y    Muscle     28       135                    2
+         3535         aged    76_y    Kidney     36       508                   45
+         362C         aged 60-65_y    Muscle     49       161                    5
+         367C         aged 70-75_y    Muscle     22       769                   17
+         411C        young 25-30_y    Muscle     27       263                   15
+        470BR        young 15-20_y    Muscle     98       942                   33
+         529C        young 35-40_y    Muscle      4        35                    2
+            7         aged    37_y   Ovarium     72        17                   55
+   A32 (411C)        young 25-30_y Intestine     98       204                    0
+   A34 (417C)         aged 65-70_y Intestine    499        92                    0
+   A38 (432C)         aged 60-65_y Intestine     93        24                    0
+         B001         aged    67_y Intestine     58       145                    0
+         B004         aged    78_y Intestine     90        76                    0
+         B005        young    24_y Intestine     60       141                    0
+         B008        young    37_y Intestine     42        87                    0
+         B009        young    30_y Intestine     31        68                    0
+         B010        young    37_y Intestine     53       210                    0
+         B011         aged    65_y Intestine     50        96                    0
+         B012        young    24_y Intestine     34        82                    0
+          D11         aged 60-65_y     Heart    553     11924                    0
+           D2         aged 60-65_y     Heart     47      2295                    0
+         D322        young    30_y      Lung     14       158                    0
+         D326        young    31_y      Lung      0        88                    2
+         D339        young    29_y      Lung      3       172                    3
+         D344        young    26_y      Lung      4       111                    0
+         D372        young    35_y      Lung     20       292                    4
+           D4         aged 70-75_y     Heart     47      2052                    0
+           D5         aged 65-70_y     Heart    135      1676                    0
+           D6         aged 70-75_y     Heart   2915     28902                    0
+           D7         aged 60-65_y     Heart    199      5615                    0
+     Donor_07        young    47_y      Lung     23        27                    0
+      donor_1         aged    59_y      Lung     58       221                    2
+      Donor_1        young    25_y      Skin     12        50                    8
+      donor_2         aged    61_y      Lung     51      1189                    1
+      Donor_2        young    27_y      Skin     13        53                    8
+      Donor_3         aged    53_y      Skin     30        70                    6
+      Donor_4         aged    70_y      Skin     23       112                    9
+      Donor_5         aged    69_y      Skin      8        43                    8
+       GRO-03         aged    57_y      Lung     10        91                    0
+       GRO-09        young    50_y      Lung     20       182                    0
+       GRO-10         aged    59_y      Lung     28       374                    5
+   GTEX-13N11        young 41-50_y     Heart    322      1485                    0
+   GTEX-145ME        young 41-50_y    Muscle    122       141                    1
+   GTEX-15CHR        young 51-60_y      Lung    108       387                    0
+   GTEX-15RIE         aged 61-70_y     Heart    262      1295                    2
+   GTEX-1HSMQ        young 51-60_y      Lung    208      1104                   40
+   GTEX-1ICG6         aged 61-70_y     Heart    131      1627                    0
+           H2        young 50-55_y     Heart     53      1886                    0
+           H4         aged 55-60_y     Heart     42      1386                    0
+           H5        young 50-55_y     Heart     89      2247                    0
+           H6        young 40-45_y     Heart     25      1022                    0
+          HC6        young    27_y      Skin     37        37                   17
+          HC7         aged    42_y      Skin     10        22                    7
+ Hs_OAT_266-1         aged    68_y   Adipose     96       139                    0
+ Hs_SAT_254-1         aged    73_y   Adipose    317       772                    0
+ Hs_SAT_266-1         aged    68_y   Adipose    622       511                    0
+        Hs237        young    53_y   Adipose     27        34                    0
+        Hs238        young    49_y   Adipose     54        50                    0
+        Hs242         aged    59_y   Adipose    106       192                    0
+       KRP460         aged    63_y    Kidney      1       133                   68
+ lafy_donor_5        young    18_y      Lung     44        98                    0
+ lafy_donor_6        young    23_y      Lung    124       467                   16
+     Liver-16         aged 71-80_y     Liver     17       353                    0
+     Liver-24        young 21-30_y     Liver    105       615                    0
+      Liver-3         aged 51-60_y     Liver     42       433                    0
+      Liver-8        young 21-30_y     Liver     15       368                    0
+       LUNG01         aged    79_y      Lung     91       492                   31
+      LUNG010        young    56_y      Lung    121       548                    1
+      LUNG011         aged    75_y      Lung    200      1319                    5
+      LUNG012         aged    58_y      Lung    118       618                    4
+ capillary_arterial capillary_venous lymphatic vein
+                  6                0       135   50
+                191                0       240  178
+                 40              134        30  120
+                 12                0       126   78
+                  0                0       127  261
+                116              115        15    0
+                  4                0        87   26
+                  0                0       256  395
+                690                0       613  564
+                963                0       121  802
+                 26                0        97  660
+                  8                0        44   37
+                135                0        71 1124
+                  5                0        65   41
+                 77              561        24   46
+                584                0       151  653
+                 43                0       123  359
+                344                0       426  771
+                609                0       294  515
+                254              164        44 1023
+                 86                0        58  313
+                294              289        15    0
+                102                0        30  848
+                270                0        28  360
+                150                0        29  225
+                832                0        52  669
+                  8                0        27   22
+                 62              307        67   18
+                  0                0       285  373
+                  0                0       322  465
+                  0                0       158   64
+                  0                0        64  149
+                  0                0       100  144
+                  0                0       131  187
+                  0                0       168  150
+                  0                0        63   94
+                  0                0       157  223
+                  0                0       116  156
+                  0                0       136  180
+               1862              167       111 1261
+                 47              209       140  117
+                  7                0        32  161
+                  3                0        15  113
+                 17                0        29  149
+                  5                0        16  101
+                  7                0        61  308
+                127               70        58   79
+                358              154        36  305
+               4235               53       168 2421
+               1422              241        38  502
+                 11                0        41   34
+                 25                0        27  142
+                 21               80        80  123
+                 45                0        18  768
+                 27               88        32  157
+                 33              223       153  315
+                 41              164       136  248
+                 12              109        89  143
+                  7                0        24   57
+                 17                0        20  222
+                 40                0        39  530
+                 64              510       440  386
+                 48                0       126   95
+                 28                0        61   44
+                 70              284       132  263
+                262              228       416  362
+                 19              378       144  311
+                  3              178        22  202
+                  7               82        32   99
+                 10              107        28  141
+                  7               33        25   43
+                 30               85        64  263
+                 12               39        81  136
+                  0                0       114   25
+                 12                0        83   69
+                 51                0        85  372
+                  1                0        31   94
+                  2                0        37   44
+                  3                0        85  250
+                 55              283        21    0
+                  4                0        74   62
+                 32                0       194  280
+                  0                0        15   45
+                  0                0        44  108
+                  0                0        38   59
+                  0                0        16   66
+                 62                0       136  512
+                 69                0       181  278
+                 73                0       144  497
+                 34                0        79  165
+ [ reached 'max' / getOption("max.print") -- omitted 42 rows ]
+
+Donors: 132 
+
+## Done. Wrote output/tables/100_*.csv and data/HAECA_filtered_meta.RDS
