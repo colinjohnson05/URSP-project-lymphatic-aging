@@ -87,3 +87,23 @@ data/
 .Rproj.user
 .Rproj.user
 .Rproj.user
+.Rproj.user
+.Rproj.user
+.Rproj.user
+.Rproj.user
+.Rproj.user
+.Rproj.user
+.Rproj.user
+.Rproj.user
+.Rproj.user
+.Rproj.user
+.Rproj.user
+.Rproj.user
+.Rproj.user
+
+# Adobe Illustrator Files
+*.ai
+
+# omnipath files
+omnipathr-log/
+collectri_human.csv

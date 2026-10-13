@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='540.00pt' height='432.00pt' viewBox='0 0 540.00 432.00'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw1NDAuMDB8MC4wMHw0MzIuMDA='>
+    <rect x='0.00' y='0.00' width='540.00' height='432.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw1NDAuMDB8MC4wMHw0MzIuMDA=)'>
+<rect x='0.00' y='0.00' width='540.00' height='432.00' style='stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;' />
+</g>
+<defs>
+  <clipPath id='cpMTkzLjg2fDUyNS4wNnw0Mi4yM3wzNTYuNjQ='>
+    <rect x='193.86' y='42.23' width='331.20' height='314.41' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMTkzLjg2fDUyNS4wNnw0Mi4yM3wzNTYuNjQ=)'>
+<rect x='193.86' y='42.23' width='331.20' height='314.41' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='208.91' y='49.25' width='301.09' height='19.65' style='stroke-width: 0.43; stroke-linecap: butt; stroke-linejoin: miter; fill: #2B83BA;' />
+<rect x='208.91' y='77.32' width='294.57' height='19.65' style='stroke-width: 0.43; stroke-linecap: butt; stroke-linejoin: miter; fill: #2B83BA;' />
+<rect x='208.91' y='105.40' width='278.67' height='19.65' style='stroke-width: 0.43; stroke-linecap: butt; stroke-linejoin: miter; fill: #2B83BA;' />
+<rect x='208.91' y='133.47' width='268.10' height='19.65' style='stroke-width: 0.43; stroke-linecap: butt; stroke-linejoin: miter; fill: #2B83BA;' />
+<rect x='208.91' y='161.54' width='265.31' height='19.65' style='stroke-width: 0.43; stroke-linecap: butt; stroke-linejoin: miter; fill: #2B83BA;' />
+<rect x='208.91' y='189.61' width='264.03' height='19.65' style='stroke-width: 0.43; stroke-linecap: butt; stroke-linejoin: miter; fill: #2B83BA;' />
+<rect x='208.91' y='217.69' width='253.30' height='19.65' style='stroke-width: 0.43; stroke-linecap: butt; stroke-linejoin: miter; fill: #2B83BA;' />
+<rect x='208.91' y='245.76' width='251.62' height='19.65' style='stroke-width: 0.43; stroke-linecap: butt; stroke-linejoin: miter; fill: #2B83BA;' />
+<rect x='208.91' y='273.83' width='243.32' height='19.65' style='stroke-width: 0.43; stroke-linecap: butt; stroke-linejoin: miter; fill: #2B83BA;' />
+<rect x='208.91' y='301.90' width='237.63' height='19.65' style='stroke-width: 0.43; stroke-linecap: butt; stroke-linejoin: miter; fill: #2B83BA;' />
+<rect x='208.91' y='329.97' width='226.38' height='19.65' style='stroke-width: 0.43; stroke-linecap: butt; stroke-linejoin: miter; fill: #2B83BA;' />
+</g>
+<g clip-path='url(#cpMC4wMHw1NDAuMDB8MC4wMHw0MzIuMDA=)'>
+<polyline points='193.86,356.64 193.86,42.23 ' style='stroke-width: 1.07; stroke-linecap: square;' />
+<text x='188.93' y='342.84' text-anchor='end' style='font-size: 8.50px; font-weight: bold; font-family: "Arial";' textLength='161.05px' lengthAdjust='spacingAndGlyphs'>Ribonucleoprotein Complex Biogenesis</text>
+<text x='188.93' y='314.77' text-anchor='end' style='font-size: 8.50px; font-weight: bold; font-family: "Arial";' textLength='73.88px' lengthAdjust='spacingAndGlyphs'>mRNA Processing</text>
+<text x='188.93' y='286.70' text-anchor='end' style='font-size: 8.50px; font-weight: bold; font-family: "Arial";' textLength='53.52px' lengthAdjust='spacingAndGlyphs'>RNA Splicing</text>
+<text x='188.93' y='254.04' text-anchor='end' style='font-size: 8.50px; font-weight: bold; font-family: "Arial";' textLength='146.45px' lengthAdjust='spacingAndGlyphs'>RNA Splicing Via Transesterification</text>
+<text x='188.93' y='263.22' text-anchor='end' style='font-size: 8.50px; font-weight: bold; font-family: "Arial";' textLength='40.64px' lengthAdjust='spacingAndGlyphs'>Reactions</text>
+<text x='188.93' y='230.56' text-anchor='end' style='font-size: 8.50px; font-weight: bold; font-family: "Arial";' textLength='111.58px' lengthAdjust='spacingAndGlyphs'>Regulation Of RNA Splicing</text>
+<text x='188.93' y='202.48' text-anchor='end' style='font-size: 8.50px; font-weight: bold; font-family: "Arial";' textLength='131.94px' lengthAdjust='spacingAndGlyphs'>Regulation Of mRNA Processing</text>
+<text x='188.93' y='174.41' text-anchor='end' style='font-size: 8.50px; font-weight: bold; font-family: "Arial";' textLength='132.28px' lengthAdjust='spacingAndGlyphs'>Leukocyte Mediated Cytotoxicity</text>
+<text x='188.93' y='146.34' text-anchor='end' style='font-size: 8.50px; font-weight: bold; font-family: "Arial";' textLength='92.12px' lengthAdjust='spacingAndGlyphs'>Glial Cell Development</text>
+<text x='188.93' y='113.68' text-anchor='end' style='font-size: 8.50px; font-weight: bold; font-family: "Arial";' textLength='134.11px' lengthAdjust='spacingAndGlyphs'>Regulation Of mRNA Splicing Via</text>
+<text x='188.93' y='122.86' text-anchor='end' style='font-size: 8.50px; font-weight: bold; font-family: "Arial";' textLength='52.45px' lengthAdjust='spacingAndGlyphs'>Spliceosome</text>
+<text x='188.93' y='90.19' text-anchor='end' style='font-size: 8.50px; font-weight: bold; font-family: "Arial";' textLength='30.69px' lengthAdjust='spacingAndGlyphs'>Epiboly</text>
+<text x='188.93' y='62.12' text-anchor='end' style='font-size: 8.50px; font-weight: bold; font-family: "Arial";' textLength='95.39px' lengthAdjust='spacingAndGlyphs'>Dendritic Cell Migration</text>
+<polyline points='191.12,339.80 193.86,339.80 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='191.12,311.73 193.86,311.73 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='191.12,283.65 193.86,283.65 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='191.12,255.58 193.86,255.58 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='191.12,227.51 193.86,227.51 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='191.12,199.44 193.86,199.44 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='191.12,171.37 193.86,171.37 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='191.12,143.29 193.86,143.29 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='191.12,115.22 193.86,115.22 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='191.12,87.15 193.86,87.15 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='191.12,59.08 193.86,59.08 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='193.86,356.64 525.06,356.64 ' style='stroke-width: 1.07; stroke-linecap: square;' />
+<polyline points='208.91,359.38 208.91,356.64 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='294.02,359.38 294.02,356.64 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='379.13,359.38 379.13,356.64 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='464.24,359.38 464.24,356.64 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<text x='208.91' y='368.02' text-anchor='middle' style='font-size: 9.00px; font-family: "Arial";' textLength='12.50px' lengthAdjust='spacingAndGlyphs'>0.0</text>
+<text x='294.02' y='368.02' text-anchor='middle' style='font-size: 9.00px; font-family: "Arial";' textLength='12.50px' lengthAdjust='spacingAndGlyphs'>0.5</text>
+<text x='379.13' y='368.02' text-anchor='middle' style='font-size: 9.00px; font-family: "Arial";' textLength='12.50px' lengthAdjust='spacingAndGlyphs'>1.0</text>
+<text x='464.24' y='368.02' text-anchor='middle' style='font-size: 9.00px; font-family: "Arial";' textLength='12.50px' lengthAdjust='spacingAndGlyphs'>1.5</text>
+<text x='359.46' y='380.52' text-anchor='middle' style='font-size: 11.00px; font-family: "Arial";' textLength='179.16px' lengthAdjust='spacingAndGlyphs'>Normalized Enrichment Score (NES)</text>
+<rect x='252.65' y='393.80' width='213.62' height='28.24' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<text x='258.13' y='411.50' style='font-size: 10.00px; font-weight: bold; font-family: "Arial";' textLength='47.81px' lengthAdjust='spacingAndGlyphs'>Trajectory</text>
+<rect x='311.42' y='399.28' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='311.70' y='399.56' width='16.71' height='16.71' style='stroke-width: 0.43; stroke-linecap: butt; stroke-linejoin: miter; fill: #2B83BA;' />
+<text x='334.18' y='411.07' style='font-size: 8.80px; font-family: "Arial";' textLength='126.61px' lengthAdjust='spacingAndGlyphs'>Preserved / Higher in LEC Aging</text>
+<text x='193.86' y='34.44' style='font-size: 11.00px; font-family: "Arial";' textLength='285.72px' lengthAdjust='spacingAndGlyphs'>Lineage Resilience Interaction GSEA (LEC vs. BEC Aging)</text>
+<text x='193.86' y='18.56' style='font-size: 12.00px; font-weight: bold; font-family: "Arial";' textLength='221.73px' lengthAdjust='spacingAndGlyphs'>Top Enriched GO Biological Processes</text>
+</g>
+</g>
+</svg>
